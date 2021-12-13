@@ -1,0 +1,14 @@
+Qu'est-ce qu'une liste en Python?
+Une liste en Python est une structure de données qui peut contenir n'importe quel type de données (nombre entier, nombre flottant, chaîne de caractères, liste). Les éléments d'une liste sont rangés et séparés par des virgules. ... Une liste L peut être simplement déclarée par l'instruction L=list() ou L=[].
+
+Lister les fonctions utiles pour manipuler les listes
+https://www.w3schools.com/python/python_ref_list.asp
+
+Comment parcourir une liste?
+http://www.codeurjava.com/2020/12/parcourir-une-liste-en-python-avec-for-in.html
+
+Explorer les listes en compréhension?
+https://python.doctor/page-comprehension-list-listes-python-cours-debutants
+
+List vs Tuples
+https://www.programiz.com/python-programming/list-vs-tuples
