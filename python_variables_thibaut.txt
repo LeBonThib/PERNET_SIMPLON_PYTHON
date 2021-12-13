@@ -1,0 +1,45 @@
+Qu'est-ce qu'une variable?
+En informatique, les variables sont des éléments qui associent un nom (l'identifiant) à une valeur. La valeur peut être de nature différente : nombre, texte, etc. Les variables sont physiquement implantées dans la mémoire du système programmé (ordinateur, carte microprocesseur, etc.)
+
+Lister les types de variables
+Types of variables
+	Independent variables
+		An independent variable is a singular characteristic that the other variables in your experiment cannot change. Age is an example of an independent variable. Where someone lives, what they eat or how much they exercise are not going to change their age. Independent variables can, however, change other variables. In studies, researchers often try to find out whether an independent variable causes other variables to change and in what way.
+
+	Dependent variables
+		A dependent variable relies on and can be changed by other components. A grade on an exam is an example of a dependent variable because it depends on factors such as how much sleep you got and how long you studied. Independent variables can influence dependent variables, but dependent variables cannot influence independent variables. For example, the time you spent studying (dependent) can affect the grade on your test (independent) but the grade on your test does not affect the time you spent studying.
+
+	Intervening variables
+		An intervening variable, sometimes called a mediator variable, is a theoretical variable the researcher uses to explain a cause or connection between other study variables—usually dependent and independent ones. They are associations instead of observations. For example, if wealth is the independent variable, and a long life span is a dependent variable, the researcher might hypothesize that access to quality healthcare is the intervening variable that links wealth and life span.
+
+	Moderating variables
+		A moderating or moderator variable changes the relationship between dependent and independent variables by strengthening or weakening the intervening variable's effect. For example, in a study looking at the relationship between economic status (independent variable) and how frequently people get physical exams from a doctor (dependent variable), age is a moderating variable. That relationship might be weaker in younger individuals and stronger in older individuals.
+
+	Control variables
+		Control or controlling variables are characteristics that are constant and do not change during a study. They have no effect on other variables. Researchers might intentionally keep a control variable the same throughout an experiment to prevent bias. For example, in an experiment about plant development, control variables might include the amounts of fertilizer and water each plant gets. These amounts are always the same so that they do not affect the plants' growth.
+
+	Extraneous variables
+		Extraneous variables are factors that affect the dependent variable but that the researcher did not originally consider when designing the experiment. These unwanted variables can unintentionally change a study's results or how a researcher interprets those results. Take, for example, a study assessing whether private tutoring or online courses are more effective at improving students' Spanish test scores. Extraneous variables that might unintentionally influence the outcome include parental support, prior knowledge of a foreign language or socioeconomic status.
+
+	Quantitative variables
+		Quantitative variables are any data sets that involve numbers or amounts. Examples might include height, distance or number of items. Researchers can further categorize quantitative variables into two types:
+			Discrete: Any numerical variables you can realistically count, such as the coins in your wallet or the money in your savings account.
+			Continuous: Numerical variables that you could never finish counting, such as time.
+
+	Qualitative variables
+		Qualitative, or categorical, variables are non-numerical values or groupings. Examples might include eye or hair color. Researchers can further categorize qualitative variables into three types:
+    			Binary: Variables with only two categories, such as male or female, red or blue.
+    			Nominal: Variables you can organize in more than two categories that do not follow a particular order. Take, for example, housing types: Single-family home, condominium, tiny home.
+    			Ordinal: Variables you can organize in more than two categories that follow a particular order. Take, for example, level of satisfaction: Unsatisfied, neutral, satisfied.
+
+	Confounding variables
+		A confounding variable is one you did not account for that can disguise another variable's effects. Confounding variables can invalidate your experiment results by making them biased or suggesting a relationship between variables exists when it does not. For example, if you are studying the relationship between exercise level (independent variable) and body mass index (dependent variable) but do not consider age's effect on these factors, it becomes a confounding variable that changes your results.
+
+	Composite variables
+		A composite variable is two or more variables combined to make a more complex variable. Overall health is an example of a composite variable if you use other variables, such as weight, blood pressure and chronic pain, to determine overall health in your experiment.
+
+Lister les opérateurs Python
+https://www.pierre-giraud.com/python-apprendre-programmer-cours/operateur/
+
+Lister les fonctions utiles pour traiter les chaînes de caractères
+https://python.sdv.univ-paris-diderot.fr/10_plus_sur_les_chaines_de_caracteres/
