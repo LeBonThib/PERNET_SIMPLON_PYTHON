@@ -1,0 +1,11 @@
+Qu'est-ce qu'un dictionnaire en Python?
+https://gayerie.dev/docs/python/python3/dict.html
+
+Comment créer un dictionnaire en Python?
+https://courspython.com/dictionnaire.html
+
+Lister les opérations communes pour manipuler les dictionnaire?
+https://fr.wikibooks.org/wiki/Programmation_Python/Dictionnaires
+
+Comment parcourir un dictionnaire?
+https://courspython.com/dictionnaire.html#Comment-parcourir-un-dictionnaire-?
