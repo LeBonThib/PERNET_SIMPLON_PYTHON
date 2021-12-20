@@ -1,0 +1,31 @@
+Programation orienté objet versus procédural?
+La différence entre la programmation procédurale et la programmation orientée objet (POO) réside dans le fait que dans la programmation procédurale, les programmes sont basés sur des fonctions, et les données peuvent être facilement accessibles et modifiables, alors qu’en programmation orientée objet, chaque programme est constitué d’entités appelées objets, qui ne sont pas facilement accessibles et modifiables.
+
+Qu'est-ce qu'une classe?
+En programmation orientée objet, la déclaration d'une classe regroupe des membres, méthodes et propriétés (attributs) communs à un ensemble d'objets.
+La classe déclare, d'une part, des attributs représentant l'état des objets et, d'autre part, des méthodes représentant leur comportement.
+Une classe représente donc une catégorie d'objets. Elle apparaît aussi comme un moule ou une usine à partir de laquelle il est possible de créer des objets ; c'est en quelque sorte une « boîte à outils » qui permet de fabriquer un objet. On parle alors d'un objet en tant qu'instance d'une classe (création d'un objet ayant les propriétés de la classe). 
+
+Qu'est-ce qu'un constructeur?
+Un constructeur est, en programmation orientée objet, une fonction particulière appelée lors de l'instanciation. Elle permet d'allouer la mémoire nécessaire à l'objet et d'initialiser ses attributs.
+Si le langage l'autorise, la surcharge est possible et les constructeurs se différencient par le nombre et le type des paramètres passés et renvoyés mais aussi par le formalisme employé. Dans de nombreux langages, on distingue certains constructeurs en particulier :
+    le constructeur par défaut n'a aucun argument ;
+    le constructeur par recopie a un unique argument du même type que l'objet à créer (généralement sous forme de référence constante) et il recopie les attributs depuis l'objet passé en argument sur l'objet à créer.
+Ces deux constructeurs ont souvent une définition attribuée par défaut par le compilateur. Le constructeur par défaut n'a alors aucun effet ; le constructeur de recopie par contre recopiera les valeurs de tous les membres de l'objet donné vers l'objet courant. Ceci peut s'avérer particulièrement dangereux, spécialement dans le cas où des pointeurs sont alloués par le constructeur et libérés par le destructeur. 
+
+Un attribut?
+En informatique, le terme "attribut" a plusieurs significations :
+    en programmation, les attributs sont des entités qui définissent les propriétés d'objets, d'éléments, ou de fichiers. Les attributs sont habituellement composés d'un identificateur (ou nom ou clé) et d'une valeur,
+    en compilation les attributs sont des valeurs sémantiques assignées aux nœuds de l'arbre syntaxique.
+
+Qu'est-ce que l'encapsulation?
+L'encapsulation est un mécanisme consistant à rassembler les données et les méthodes au sein d'une structure en cachant l'implémentation de l'objet, c'est-à-dire en empêchant l'accès aux données par un autre moyen que les services proposés. L'encapsulation permet donc de garantir l'intégrité des données contenues dans l'objet. 
+
+Accesseurs et mutateurs?
+En règle générale, on n'accède pas directement aux attributs d'un objet. Pour lire et modifier leurs valeurs, on passe par des méthodes qui permettent de sécuriser leur utilisation.
+Ces méthodes s'appellent des accesseurs (getter) pour lire leurs valeurs et des mutateurs (setter) pour modifier leurs valeurs.
+Une des conventions souvent utilisée et de reprendre le nom de l'attribut pour créer les méthodes, en ajoutant get pour les accesseurs et set pour les mutateurs.
+
+Qu'est-ce que l'héritage?       
+L'héritage (en anglais inheritance) est un principe propre à la programmation orientée objet, permettant de créer une nouvelle classe à partir d'une classe existante. Le nom d'"héritage" (pouvant parfois être appelé dérivation de classe) provient du fait que la classe dérivée (la classe nouvellement créée) contient les attributs et les méthodes de sa superclasse (la classe dont elle dérive). L'intérêt majeur de l'héritage est de pouvoir définir de nouveaux attributs et de nouvelles méthodes pour la classe dérivée, qui viennent s'ajouter à ceux et celles héritées.
+Par ce moyen on crée une hiérarchie de classes de plus en plus spécialisées. Cela a comme avantage majeur de ne pas avoir à repartir de zéro lorsque l'on veut spécialiser une classe existante.
