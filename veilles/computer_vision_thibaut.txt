@@ -1,0 +1,19 @@
+Qu'est-ce que la computer vision?
+https://www.ibm.com/fr-fr/topics/computer-vision
+
+Quels sont les problèmes qu'on peut traiter par la vision par ordinateur?
+	- la classification d'images voit une image et peut la classer (un chien, une pomme, le visage d'une personne). Plus précisément, elle est capable 		de prévoir avec précision qu'une image donnée appartient à une certaine classe. Par exemple, une entreprise de médias sociaux peut vouloir 			l'utiliser pour identifier et isoler automatiquement les images répréhensibles téléchargées par les utilisateurs.
+    	- la détection d'objets peut utiliser la classification d'images pour identifier une certaine classe d'images, puis détecter et mettre en tableau 		leur apparence dans une image ou une vidéo. Cela inclut, par exemple, la détection de dommages sur une chaîne de montage ou 		l'identification de machines nécessitant une maintenance.
+    	- le suivi d'objets suit un objet une fois qu'il est détecté. Cette tâche est souvent exécutée avec des images capturées en séquence ou des flux 		vidéo en temps réel. Les véhicules autonomes, par exemple, doivent non seulement classer et détecter des objets tels que des piétons, 		d'autres voitures et des infrastructures routières, mais ils doivent également les suivre en mouvement pour éviter les collisions et 				respecter le code de la route.
+
+    	- la récupération d'images basée sur le contenu utilise la vision par ordinateur pour parcourir, rechercher et récupérer des images provenant de 			grands magasins de données, en fonction du contenu des images plutôt que des balises de métadonnées qui leur sont associées. Cette tâche 			peut incorporer une annotation d'image automatique qui remplace le balisage d'image manuel. Ces tâches peuvent être utilisées pour les 		systèmes de gestion des actifs numériques et peuvent augmenter la précision de la recherche et de la récupération.
+
+Quels sont les services proposés par Azure pour la computer vision?
+	- Extraction de texte (OCR)
+		- Extrayez du texte imprimé et manuscrit d’images et de documents avec des langues et des styles d’écriture mélangés.
+	- Compréhension d’image
+		- Tirez parti d’une ontologie riche de plus de 10 000 concepts et objets pour générer de la valeur ajoutée à partir de vos ressources 		visuelles.
+	- Analyse spatiale
+		- Analysez la façon dont les gens se déplacent au sein d'un espace en temps réel pour gérer le nombre d'occupants, la distanciation sociale 		et la détection des masques.
+	- Déploiement flexible
+		- Exécutez Vision par ordinateur dans le cloud ou à la périphérie, dans des conteneurs.

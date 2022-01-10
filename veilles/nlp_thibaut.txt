@@ -1,0 +1,18 @@
+Qu'est-ce que le NLP?
+Le langage naturel est le terme précis pour désigner le langage humain, dont l'étude est la linguistique.
+Le NLP pour Natural Language Processing ou Traitement Numérique du Langage est une discipline qui porte essentiellement sur la compréhension, la manipulation et la génération du langage naturel par les machines.  Ainsi, le NLP est réellement à l’interface entre la science informatique et la linguistique. Il porte donc sur la capacité de la machine à interagir directement avec l’humain.
+
+Quels type de problèmes sont traités avec le NLP?
+Email filters
+Smart assistants
+Search results
+Predictive text
+Language translation
+Digital phone calls
+Data analysis
+Text analytics
+
+Quels sont les outils disponibles pour mettre en place des solutions NLP?
+Le NLTK, ou Natural Language Toolkit, est une suite de bibliothèques logicielles et de programmes. Elle est conçue pour le traitement naturel symbolique et statistique du langage anglais en langage Python. C’est l’une des bibliothèques de traitement naturel du langage les plus puissantes.
+
+Cette suite d’outils rassemble les algorithmes les plus communs du traitement naturel du langage comme le tokenizing, le part-of-speech tagging, le stemming, l’analyse de sentiment, la segmentation de topic ou la reconnaissance d’entité nommée.

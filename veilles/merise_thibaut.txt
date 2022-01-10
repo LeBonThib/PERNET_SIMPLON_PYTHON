@@ -1,0 +1,52 @@
+Qu'est-ce que la méthode Merise? 
+Merise est une méthode d'analyse, de conception et de gestion de projet informatique. 
+
+Son utilité? 
+Le but de cette méthode est d'arriver à concevoir un système d'information.
+
+Son histoire?
+https://fr.wikipedia.org/wiki/Merise_(informatique)#Historique
+ 
+
+1_Le dictionnaire de donnée (https://ineumann.developpez.com/tutoriels/merise/initiation-merise/#LII-B)
+Le dictionnaire des données est un document qui regroupe toutes les données que vous aurez à conserver dans votre base (et qui figureront donc dans le MCD). Pour chaque donnée, il indique :
+    le code mnémonique : il s'agit d'un libellé désignant une donnée (par exemple «titre_l» pour le titre d'un livre) ;
+    la désignation : il s'agit d'une mention décrivant ce à quoi la donnée correspond (par exemple «titre du livre») ;
+    le type de donnée :
+        A ou Alphabétique : lorsque la donnée est uniquement composée de caractères alphabétiques (de 'A' à 'Z' et de 'a' à 'z'),
+        N ou Numérique : lorsque la donnée est composée uniquement de nombres (entiers ou réels),
+        AN ou Alphanumérique : lorsque la donnée peut être composée à la fois de caractères alphabétiques et numériques,
+        Date : lorsque la donnée est une date (au format AAAA-MM-JJ),
+        Booléen : Vrai ou Faux ;
+    la taille : elle s'exprime en nombre de caractères ou de chiffres. Dans le cas d'une date au format AAAA-JJ-MM, on compte également le nombre de caractères, soit 10 caractères. Pour ce qui est du type booléen, nul besoin de préciser la taille (ceci dépend de l'implémentation du SGBDR) ;
+    et parfois des remarques ou observations complémentaires (par exemple si une donnée est strictement supérieure à 0, etc.).
+
+Exemple: 
+Code mnémonique		Désignation			Type		Taille		Remarque
+id_i			Identifiant utilisateur		N		N/A		N/A
+nom_i			Nom utilisateur			A		30		N/A
+prenom_i		Prénom utilisateur		A		30		N/A
+dob_i			Date naissance utilisateur	Date		10		Au format AAAA-MM-JJ
+
+2_MCD (https://ineumann.developpez.com/tutoriels/merise/initiation-merise/#LII-D)
+Modèle Conceptuel de Données
+Le MCD est une représentation graphique et structurée des informations mémorisées par un SI. 
+Le MCD est basé sur deux notions principales : les entités et les associations, d'où sa seconde appellation : le schéma Entité/Association.
+
+3_MLD (https://ineumann.developpez.com/tutoriels/merise/initiation-merise/#LIII-A)
+Modèle Logique de Données
+Le MLD est composé uniquement de ce que l'on appelle des relations. Ces relations sont à la fois issues des entités du MCD, mais aussi d'associations, dans certains cas. Ces relations nous permettront par la suite de créer nos tables au niveau physique.
+Une relation est composée d'attributs. Ces attributs sont des données élémentaires issues des propriétés des différentes entités, mais aussi des identifiants et des données portées par certaines associations.
+Une relation possède un nom qui correspond en général à celui de l'entité ou de l'association qui lui correspond. Elle possède aussi une clef primaire qui permet d'identifier sans ambiguïté chaque occurrence de cette relation. La clef primaire peut être composée d'un ou plusieurs attributs, il s'agit d'une implantation de la notion d'identifiant des entités et associations qui se répercute au niveau relationnel.
+
+4_MPD (https://www.base-de-donnees.com/mpd/)
+Modèle Physique des Données
+
+Cette étape permet de construire la structure finale de la base de données avec les différents liens entre les éléments qui la composent. Pour la peine, on change aussi de vocabulaire :
+    Les entités se transforment en tables ;
+    Les propriétés se transforment en champs (ou attributs) ;
+    Les propriétés se trouvant au milieu d’une relation génèrent une nouvelle table ou glissent vers la table adéquate en fonction des cardinalités de la relation ;
+    Les identifiants se transforment en clés et se retrouvent soulignés. Chaque table dispose d’au minimum 1 clé dite primaire ;
+    Les relations et les cardinalités se transforment en champs parfois soulignés : il s’agit de créer des « clés étrangères » reliées à une « clé primaire » dans une autre table.
+
+C’est aussi à cette étape que les aspects performances sont pris en compte. La construction d’indexes ou des opération de « dénormalisations » faciliteront la rapidité de la base de données mais pourront aussi entraîner des incohérences.
