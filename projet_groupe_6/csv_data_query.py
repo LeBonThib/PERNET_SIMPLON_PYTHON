@@ -14,4 +14,3 @@ print(alimconfiance_columns_count.count())
 
 # modification du csv pour supprimer les doublons
 # modification du csv pour rassembler les catégories mixes dans une des "grandes" catégories (e.g: rayon ... > grande distribution)
-
