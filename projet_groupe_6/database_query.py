@@ -4,8 +4,6 @@ import pandas as pd
 # Import the 'config' funtion from the config.py file
 from config import config
 
-# Establish a connection to the database by creating a cursor object
-
 # Obtain the configuration parameters
 params = config()
 # Connect to the PostgreSQL database
