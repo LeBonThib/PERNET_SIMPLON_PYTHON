@@ -24,8 +24,10 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 #   IMPORT DU CSV
 #
 # Locate and import target dataset into a dataframe
-test_dataset = 'website/static/downloads/export_alimconfiance.csv'
+test_dataset = 'C:/Users/Pontiff/Desktop/SIMPLON_DEV_IA_DOCUMENTS_THIBAUT_PERNET/python/datasets/export_alimconfiance_raw.cs/'
 test_dataframe = pd.read_csv(test_dataset, sep=';')
+
+test_dataframe['Synthese_eval_sanit'].value_counts(normalize=True)
 
 #%%
 #   ON FAIT SAUTER LES COLONNES DONT ON NE VA PAS SE SERVIR POUR ENTRAINER LE MODÈLE ET ON REMPLIT LES CELLULES VIDES
